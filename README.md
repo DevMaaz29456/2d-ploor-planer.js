@@ -1,0 +1,1 @@
+I developed a 2D floor planner for a client project using HTML, CSS, and JavaScript. The planner allows users to interactively navigate, zoom, and view details of the floor plan, including regions, doors, and furniture. It offers a professional and visually appealing design, enhancing user experience with smooth navigation and responsive functionality.
