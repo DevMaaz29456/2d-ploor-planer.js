@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2D Floorplan Viewer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>2D Floorplan Viewer</h1>
+      </div>
+      <div class="controls">
+        <button id="reset-zoom" class="btn">Reset Zoom</button>
+        <button id="zoom-in" class="btn">Zoom In</button>
+        <button id="zoom-out" class="btn">Zoom Out</button>
+      </div>
+      <div id="floorplan-container" class="floorplan-container">
+        <div id="floorplan"></div>
+        <div id="hover-info" class="hover-info"></div>
+        <div id="zoom-level" class="zoom-level">Zoom: 100%</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
